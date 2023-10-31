@@ -18,15 +18,15 @@
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Experience</a></li>
+                <li><a href="#portfolio">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-            <p>2nd Year Business and Computer Science Student</p>
+            <p>3rd Year Business and Computer Science Student</p>
             <h1>Hi, I'm Alex Wu</h1>
         </div>
     </div>
@@ -40,30 +40,29 @@
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p>Hi my name is Alex and I'm currently in my second year studying business and computer science. I have a deep interest 
-                    for all things tech and I hope to pursue a career in software engineering one day. Currently I'm a financial analyst 
-                    and a finance manager for both the Commerce Undergraduate Society of UBC and Enactus UBC. I also take time outside of
-                     school to partake in case competitions and hackathons. Outside of work and school, I'm an avid ultimate frisbee player
+                <p>Hi my name is Alex and I'm currently in my third year studying business and computer science. I have a deep interest 
+                    for all things tech and I hope to pursue a career in software engineering one day. Currently I'm a Full-Stack Software
+                    Engineer Intern for Supporting Lines. I also take time outside of school to partake in case competitions and hackathons. Outside of work and school, I'm an avid ultimate frisbee player
                       and I like to keep up with the NBA. I also have a firm passion for cooking and travelling.
                 </p>
 
-                    <div class="tab-titles">
+                    <div class="tab-titles">    
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Web Development</span><br>Web app and Software development</li>
-                            <li><span>Case Analysis</span><br>Financial Modeling & Product Ideation</li>
-                            <li><span>UI/UX Design</span><br>Designing Web/App interfaces</li>
+                            <li><span>Languages</span><br>Java, C, C++, Python, JavaScript, TypeScript, HTML, CSS, SQL, PHP</li>
+                            <li><span>Frameworks</span><br>React, Node.js, MongoDB, Express.js, Flask, Vue.js, JUnit5, Java Swing, Pandas, gspread</li>
+                            <li><span>Developer Tools</span><br>Git/Github, VS Code, Visual Studio, PyCharm, IntelliJ, R Studio</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2022 - Current</span><br>Financial Analyst</li>
-                            <li><span>2022 - Current</span><br>Finance Manager</li>
-                            <li><span>2017 - Current</span><br>Pool Operations Assistant</li>
+                            <li><span>January 2024 - Current</span><br>Suppporting Lines: Full-Stack Software Engineer Intern</li>
+                            <li><span>April 2023 - Current</span><br>Enactus UBC: Software Developer</li>
+                            <li><span>December 2017 - Current</span><br>Orient Pool & Spa Company: Pool Operations Assistant</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
@@ -79,25 +78,39 @@
 <!-------------services--------------->
 <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
+        <h1 class="sub-title">My Experience</h1>
         <div class="services-list">
             <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Design</h2>
-                <p>Coming Soon</p>
-                <a href="#">Learn more</a>
+                <img src="images/sl.png" width="160" height="100">
+                <h2>Supporting Lines</h2>
+                <p>Full-Stack Software Engineer Intern</p>
+                <a href="#">
+                    • Built web application powered by Next.js and hosted using Google App Engine<br>
+                    • Architected and built SQL (Google Cloud MySQL) and NoSQL (Firestore) databases to store customer data<br>
+                    • Bootstrapped Cypress and Jest testing frameworks, and created unit, integration and e2e tests<br>
+                    • Integrated production-grade tools including Auth0, Knex.js, Typescript to make it easier to write high-quality, secure code<br>
+                    • Implemented secure coding practices including the OWASP Top 10, SAST tools like nodejsscan, and created documented procedures to ensure packages are not outdated and that our software supply chain is secure<br>    
+                    </a>
             </div>
             <div>
-                <i class="fa-sharp fa-solid fa-crop"></i>
-                <h2>UI/UX Design</h2>
-                <p>Coming Soon</p>
-                <a href="#">Learn more</a>
+                <img src="images/enactus.jpeg" width="100" height="100">
+                <h2>Enactus UBC</h2>
+                <p>Software Developer</p>
+                <a href="#">• Led UI design team by modelling and implementing high-fidelity mock-ups following a mobile-first approach<br>
+                    • Increased site traffic by 175% through relentless SEO-optimized web development and consistent updates<br>
+                    • Developed a Slack bot with JavaScript, Slack API, GSpread, OpenAI to automate hours-tracking via Slack<br>
+                    • Enhanced data processing efficiency by optimizing Excel functions achieving a 70% faster data analysis rate<br>
+                    • Reduced work time from 9 hours to 15 minutes by developing Python algorithm optimizing workshop scheduling<br>
+                    • Optimized code maintenance through creation of 15+ reusable components and deployment of new features<br>
+                    </a>
             </div>
             <div>
-                <i class="fa-brands fa-app-store"></i>
-                <h2>App Design</h2>
-                <p>Coming Soon</p>
-                <a href="#">Learn more</a>
+                <img src="images/cus.png" width="100" height="100">
+                <h2>Commerce Undergraduate Society of UBC</h2>
+                <p>Financial Analyst</p>
+                <a href="#">• Collaborated with five CUS-affiliated clubs to assist with providing financial decision making, setting up their yearly budget, and filling reimbursements over an 8-month period<br>
+                    • Oversaw the $1.2 million operating budget through managing, analyzing, and reporting information gathered from my assigned services to help create the CUS mid-year reports<br>
+                </a>
             </div>
         </div>
     </div>
@@ -108,34 +121,40 @@
     <div class="container">
         <h1 class="sub-title">My Projects</h1>
         <div class="work-list">
+
+            <div class="work">
+                <img src="images/clc.png">
+                <div class="layer">
+                    <h3>Room Rover</h3>
+                    <p>A bot that can automatically book study rooms at the Connacord Learning Commons on a periodic basis<br><br>
+                        Tools: Node.js, Javascript, Puppeteer API<br>
+                    </p>    
+                    <a href="https://github.com/alexwu02/Room-Rover"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
             <div class="work">
                 <img src="images/work-1.jpeg">
                 <div class="layer">
                     <h3>NBA Fantasy Draft Simulator</h3>
-                    <p>The desktop application that allows you to simulate a NBA fantasy draft to prepare for your upcoming season.
-                        Allows users to import NBA player statistics from the most recent season using the NBA API. 
+                    <p>The desktop application that allows you to simulate a NBA fantasy draft to prepare for your upcoming season.<br><br>
+                        Tools: Java, Java Swing, JUnit 5<br>
                     </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/alexwu02/NBA-Fantasy-Draft-Simulator"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
+
             <div class="work">
-                <img src="images/work-2.png">
+                <img src="images/coin.png">
                 <div class="layer">
-                    <h3>BeSmart (Mobile Study App)</h3>
-                    <p>A mobile app inspired by the popular app "BeReal" which allows users to preset study questions for which the app will notify
-                        users throughout the day with a preset question. Allows users to practice active recall and serves as a low maintenance study resource
+                    <h3>Campus Coin</h3>
+                    <p>An expense tracking application that allows users to track their daily spendings<br><br>
+                        Tools: MongoDB, Express, React, Node.js<br>
                     </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/alexwu02/Campus-Coin"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
-            <div class="work">
-                <img src="images/work-3.png">
-                <div class="layer">
-                    <h3>Slacky (Slack Bot)</h3>
-                    <p>Coming Soon</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
+
         </div>
         <!-----<a href="#" class="btn">See More</a>---->
     </div>
@@ -154,7 +173,7 @@
                     <a href="https://www.linkedin.com/in/alexwu02/"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/alexwu02"><i class="fa-brands fa-github"></i></i></a>
                 </div>
-                <a href="images/CS Resume.pdf" download class="btn btn2">Download CV</a>
+                <a href="images/Alex Resume.pdf" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
